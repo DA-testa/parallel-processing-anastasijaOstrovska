@@ -38,7 +38,7 @@ def main():
 
     elif "f" in i.lower() :
         name = input()
-        name = "./test/" + name
+        #name = "./test/" + name
         if "a" not in name:
             with open(name, mode = 'r' ,  encoding = "utf8") as fail:
                 n,m = map(int, fail.readline().split())
@@ -54,9 +54,8 @@ def main():
     result = parallel_processing(n,m,data)
     
     # TODO: print out the results, each pair in it's own line
-    print("3")
-    #for i, j in result :
-        #print(i,j)
+    for i, j in result :
+        print(i,j)
 
 
 
