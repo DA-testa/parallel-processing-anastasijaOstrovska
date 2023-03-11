@@ -31,7 +31,7 @@ def main():
     n = 0
     m = 0
 
-    i = input()# file or input
+    #i = input()# file or input
     i = "i"
     if "i" in i.lower() :
         n,m = map(int, input().split())
