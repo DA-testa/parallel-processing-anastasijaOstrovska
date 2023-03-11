@@ -38,7 +38,7 @@ def main():
 
     elif "f" in i.lower() :
         name = input()
-        name = "./tests/" + name
+        name = "./test/" + name
         if "a" not in name:
             with open(name, mode = 'r' ,  encoding = "utf8") as fail:
                 n,m = map(int, fail.readline().split())
