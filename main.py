@@ -2,9 +2,7 @@
 
 def parallel_processing(n, m, data):
     output = []
-    thread = []
-    for i in range (n):
-        thread.append(0)
+    thread = [0]*n
     time = 0
     i = 0
     j = 0
